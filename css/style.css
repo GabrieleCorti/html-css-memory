@@ -12,6 +12,9 @@ body {
 h1 {
   color: white;
   font-size: 90px;
-  text-align: center;
   text-shadow: 2px 2px 4px #000000;
+}
+
+h1, .firma{
+  text-align: center;
 }
