@@ -20,7 +20,7 @@ h1, .firma {
 }
 
 main {
-  width: 80%;
+  width: 40%;
   margin: auto;
 }
 
@@ -30,8 +30,8 @@ main {
 
 .carta{
   display: inline-block;
-  height: 100px;
-  width: 100px;
+  height: 140px;
+  width: 140px;
   background-color: red;
   margin-left: 20px;
   border-radius: 20px;
