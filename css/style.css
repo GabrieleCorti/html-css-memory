@@ -20,8 +20,9 @@ h1, .firma {
 }
 
 main {
-  width: 40%;
+  width: 60%;
   margin: auto;
+  text-align: center;
 }
 
 .fila{
@@ -30,12 +31,14 @@ main {
 
 .carta{
   display: inline-block;
-  height: 140px;
-  width: 140px;
+  height: 250px;
+  width: 20%;
   background-color: white;
   margin-left: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url(../img/pattern.png);
-  background-size:cover;
+  /* background-image: url(../img/pattern.png);
+  background-size:cover; */
 }
+
+p
