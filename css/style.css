@@ -40,13 +40,18 @@ main {
   position: relative;
   /* background-image: url(../img/pattern.png);
   background-size:cover; */
+  text-align: center;
 }
 
 .sub {
+  height: 100%;
+  width: 90%;
+  margin: auto;
   background-image: url(../img/noun_Submarine_3134738.png);
-  background-size: 90%;
+  background-size: contain;
   background-repeat: no-repeat;
 }
+
 .nome {
   position: absolute;
   width: 100%;
