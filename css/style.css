@@ -43,14 +43,30 @@ main {
   background-size: contain;
 }
 
-.sub {
+.sub, .mongfiera, .tratt, .nave {
   height: 80%;
   width: 80%;
   margin: auto;
-  background-image: url(../img/noun_Submarine_3134738.png);
+  /* background-image: url(../img/noun_Submarine_3134738.png); */
   background-size: contain;
   background-repeat: no-repeat;
   display: none;
+}
+
+.sub {
+  background-image: url(../img/noun_Submarine_3134738.png);
+}
+
+.mongfiera{
+  background-image: url(../img/noun_air_balloon_3134741.png);
+}
+
+.tratt {
+  background-image: url(../img/noun_Tractor_3134797.png);
+}
+
+.nave{
+  background-image: url(../img/noun_Cruise_Ship_3134824.png);
 }
 
 .nome {
@@ -64,7 +80,7 @@ main {
   display: none;
 }
 
-.carta:hover .sub, .carta:hover .nome{
+.carta:hover .sub, .carta:hover .mongfiera, .carta:hover .tratt, .carta:hover .nave, .carta:hover .nome{
   display: block;
 }
 
