@@ -25,11 +25,11 @@ main {
   text-align: center;
 }
 
-.fila{
+.fila {
   margin-bottom: 30px;
 }
 
-.carta{
+.carta {
   display: inline-block;
   height: 250px;
   width: 20%;
@@ -42,6 +42,11 @@ main {
   background-size:cover; */
 }
 
+.sub {
+  background-image: url(../img/noun_Submarine_3134738.png);
+  background-size: 90%;
+  background-repeat: no-repeat;
+}
 .nome {
   position: absolute;
   width: 100%;
