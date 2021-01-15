@@ -44,8 +44,8 @@ main {
 }
 
 .sub {
-  height: 100%;
-  width: 90%;
+  height: 80%;
+  width: 80%;
   margin: auto;
   background-image: url(../img/noun_Submarine_3134738.png);
   background-size: contain;
@@ -64,9 +64,10 @@ main {
   display: none;
 }
 
-.carta:hover .nome{
+.carta:hover .sub, .carta:hover .nome{
   display: block;
 }
-/* .carta:hover +.nome {
-  display: block;
-} */
+
+.carta:hover {
+  background-image: none;
+}
