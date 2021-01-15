@@ -87,3 +87,11 @@ main {
 .carta:hover {
   background-image: none;
 }
+
+.girata {
+  background-image: none;
+}
+
+.carta.girata div, .carta.girata .nome {
+  display: block;
+}
