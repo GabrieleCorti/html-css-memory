@@ -31,16 +31,16 @@ main {
 
 .carta {
   display: inline-block;
+  position: relative;
   height: 250px;
   width: 20%;
   background-color: white;
   margin-left: 20px;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: relative;
-  /* background-image: url(../img/pattern.png);
-  background-size:cover; */
   text-align: center;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
 }
 
 .sub {
@@ -50,6 +50,7 @@ main {
   background-image: url(../img/noun_Submarine_3134738.png);
   background-size: contain;
   background-repeat: no-repeat;
+  display: none;
 }
 
 .nome {
@@ -60,4 +61,12 @@ main {
   font-size: 30px;
   color: orange;
   text-shadow: 2px 2px 4px #000000;
+  display: none;
 }
+
+.carta:hover .nome{
+  display: block;
+}
+/* .carta:hover +.nome {
+  display: block;
+} */
