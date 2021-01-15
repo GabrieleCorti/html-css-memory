@@ -19,6 +19,15 @@ h1, .firma {
   text-align: center;
 }
 
+main {
+  width: 80%;
+  margin: auto;
+}
+
 .carta{
   display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin-left: 10px;
 }
