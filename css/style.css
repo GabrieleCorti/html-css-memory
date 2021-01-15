@@ -15,6 +15,10 @@ h1 {
   text-shadow: 2px 2px 4px #000000;
 }
 
-h1, .firma{
+h1, .firma {
   text-align: center;
+}
+
+.carta{
+  display: inline-block;
 }
