@@ -32,10 +32,11 @@ main {
   margin-bottom: 30px;
 }
 
+/* mai usare heigt se no si rope tutto come succede qui */
 .carta {
   display: inline-block;
   position: relative;
-  height: 300px;
+  height: 350px;
   width: 20%;
   background-color: white;
   margin-left: 20px;
@@ -51,7 +52,8 @@ main {
   width: 80%;
   margin: auto;
   /* background-image: url(../img/noun_Submarine_3134738.png); */
-  background-size: 80%;
+  /* background-size: 80%; */
+  background-size: contain;
   background-repeat: no-repeat;
   display: none;
 }
